@@ -10,7 +10,7 @@ class Hyperparams:
     # pipeline
     prepro = False  # if True, run `python prepro.py` first before running `python train.py`.
 
-    vocab = "PE กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮฤฦะ\u0e31าำ\u0e34\u0e35\u0e36\u0e37\u0e38\u0e39เแโใไ\u0e45\u0e47\u0e48\u0e49\u0e4a\u0e4bฯๆ\u0e3a\u0e4c\u0e4d\u0e4e'.?" # P: Padding E: End of Sentence
+    vocab = "PE กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮฤฦะัาำิีึืุูเแโใไๅ็่้๊๋ฯๆฺ์ํ๎'.?" # P: Padding E: End of Sentence
 
     # data
     data = "./LJSpeech-1.1"
