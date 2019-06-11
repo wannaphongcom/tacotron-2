@@ -13,7 +13,7 @@ class Hyperparams:
     vocab = "PE กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮฤฦะัาำิีึืุูเแโใไๅ็่้๊๋ฯๆฺ์ํ๎'.?" # P: Padding E: End of Sentence
 
     # data
-    data = "./LJSpeech-1.1"
+    data = "/home/tontan/tacotron-1"
     # data = "/data/private/voice/nick"
     test_data = 'harvard_sentences.txt'
     max_duration = 10.0
