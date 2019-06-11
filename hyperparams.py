@@ -20,7 +20,7 @@ class Hyperparams:
 
     # signal processing
     sr = 44100 # Sample rate.
-    n_fft = 2205 # fft points (samples)
+    n_fft = 2204 # fft points (samples)
     frame_shift = 0.0125 # seconds
     frame_length = 0.05 # seconds
     hop_length = int(sr*frame_shift) # samples.
